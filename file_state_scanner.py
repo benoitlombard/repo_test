@@ -5,6 +5,9 @@ import subprocess
 from pathlib import Path
 from pathlib import PurePosixPath
 
+
+
+
 class FileStateScanner:
     """
     Scans file states: locked, readonly, changed.
